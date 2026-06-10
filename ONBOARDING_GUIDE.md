@@ -9,26 +9,34 @@ Managing API access for 500 accounts requires a systematic approach to bypass Me
     *   Note your `App ID` and `App Secret`.
     *   **Scaling Note:** One unreviewed app typically allows **50-100 Testers**. For 500 accounts, you will likely need **5-10 separate Developer Apps** unless you submit one app for official "App Review".
 
-## 2. The Tester Invite Loop
-For each Threads account:
-1.  Go to **App Dashboard -> Roles -> Roles -> Add Testers**.
-2.  Add the Threads username/ID of the account you want to onboard.
-3.  **Acceptance:** The account MUST log into `developers.facebook.com` and accept the invitation.
-4.  **Authorization:** Use the [Threads Token Generator](https://developers.facebook.com/docs/threads/getting-started) or a custom OAuth URL to get a **Short-Lived Token**.
+## 2. Streamlined Onboarding (The Auth Portal)
+Since each of the 500 accounts requires a manual login to grant permission, we use the **Sovereign Auth Portal** to make this as fast as possible.
 
-## 3. Token Longevity (Crucial)
-Short-lived tokens expire in **1-2 hours**. You must exchange them for **Long-Lived Tokens (60 days)** before adding them to the Sovereign Hive.
-
-**Automation Tool:**
+**Step 1: Start the Portal**
 ```bash
-node src/auth_helper.js <short_lived_token> <app_id> <app_secret>
+node src/auth_portal.js
 ```
 
-## 4. Final Onboarding
-Once you have the **Long-Lived Token** and the **Meta User ID**, plug it into the Hive:
+**Step 2: Authenticate Accounts**
+For each account, visit this URL in your browser:
+`http://localhost:4000/auth?username=ACCOUNT_USERNAME`
+
+1.  Log in to the Threads account.
+2.  Click **"Allow"**.
+3.  The Portal will automatically:
+    *   Exchange the code for a short-lived token.
+    *   Exchange the short-lived token for a **60-day Long-Lived Token**.
+    *   Save the account and token directly into the **PostgreSQL Database**.
+
+**This turns a 500-step manual process into a simple "Click & Login" marathon.**
+
+---
+
+## 3. Bulk Verification
+Once you have authenticated your accounts via the portal, you can verify their status in the Hive:
 
 ```bash
-node src/onboard_account.js <username> <meta_user_id> <long_lived_token> <proxy_url>
+node src/status_report.js
 ```
 
 ---
