@@ -2,6 +2,7 @@ const { Worker } = require('bullmq');
 const { Client } = require('pg');
 const { connection, HIVE_QUEUE_NAME } = require('./queue_manager');
 const { publishThread } = require('./threads_api_util');
+const { sendTelegramAlert } = require('./telegram');
 require('dotenv').config();
 
 /**
@@ -62,6 +63,9 @@ async function startWorker() {
                 'INSERT INTO system_logs (worker_id, account_id, action, level, message) VALUES ($1, $2, $3, $4, $5)',
                 [process.env.HOSTNAME || 'local-worker', accountId, 'PUBLISH_ERROR', 'error', error.message]
             );
+
+            // Send Telegram Alert for critical failures
+            await sendTelegramAlert(`🚨 <b>PUBLISH ERROR</b>\n👤 Account: @${username}\n❌ Error: ${error.message}`);
 
             throw error; // Re-throw to allow BullMQ to handle retries
         }
