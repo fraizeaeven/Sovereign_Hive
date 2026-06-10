@@ -36,9 +36,13 @@ async function importPersonas() {
             const accountId = accountRes.rows[0].id;
 
             const query = `
-                INSERT INTO personas (account_id, niche, tone, bio, core_values, linguistic_quirks)
-                VALUES ($1, $2, $3, $4, $5, $6)
+                INSERT INTO personas (account_id, gender, relationship_status, financial_status, life_situation, niche, tone, bio, core_values, linguistic_quirks)
+                VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
                 ON CONFLICT (account_id) DO UPDATE SET
+                    gender = EXCLUDED.gender,
+                    relationship_status = EXCLUDED.relationship_status,
+                    financial_status = EXCLUDED.financial_status,
+                    life_situation = EXCLUDED.life_situation,
                     niche = EXCLUDED.niche,
                     tone = EXCLUDED.tone,
                     bio = EXCLUDED.bio,
@@ -49,6 +53,10 @@ async function importPersonas() {
 
             await client.query(query, [
                 accountId,
+                persona.gender,
+                persona.relationship_status,
+                persona.financial_status,
+                persona.life_situation,
                 persona.niche,
                 persona.tone,
                 persona.bio,

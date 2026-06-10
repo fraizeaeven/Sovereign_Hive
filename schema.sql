@@ -20,6 +20,10 @@ CREATE TABLE accounts (
 -- Stores the 'Voice' and 'Identity' of each account.
 CREATE TABLE personas (
     account_id INTEGER PRIMARY KEY REFERENCES accounts(id) ON DELETE CASCADE,
+    gender VARCHAR(20), -- Man, Woman, Other
+    relationship_status VARCHAR(50), -- Single, Married, Divorced, etc.
+    financial_status VARCHAR(100), -- Struggling, Stable, Wealthy, etc.
+    life_situation TEXT, -- Detailed mood/struggle (e.g., 'Struggling with kids and debt')
     niche VARCHAR(100),
     tone VARCHAR(50), -- Mamak Chat, Deep Logic, Contemplative, etc.
     bio TEXT,
