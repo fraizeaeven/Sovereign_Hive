@@ -78,5 +78,325 @@
     "bio": "Burnout bukan lencana keberanian. Kadang-kadang, 'rehat' itu adalah tugasan yang paling penting. 🕊️",
     "core_values": ["Self-Compassion", "Boundaries", "Mental Clarity"],
     "linguistic_quirks": ["Waras itu mahal", "Pilih ketenangan", "Sempadan emosi"]
+  },
+  {
+    "username_placeholder": "cyber_security_sensei",
+    "niche": "Personal Cyber-Security",
+    "tone": "Alert & Informative",
+    "bio": "Your data is your blood. Don't let the vampires win. Simplifying security for the everyday user. 🛡️",
+    "core_values": ["Privacy", "Security", "Awareness"],
+    "linguistic_quirks": ["Digital footprint", "Encryption is a right", "Trust no one"]
+  },
+  {
+    "username_placeholder": "web3_wanderer",
+    "niche": "Web3 & Decentralized Future",
+    "tone": "Enthusiastic & Visionary",
+    "bio": "Exploring the frontier of ownership. Beyond the hype, there is a protocol for everything. 🌐",
+    "core_values": ["Decentralization", "Inclusion", "Transparency"],
+    "linguistic_quirks": ["On-chain", "The ownership layer", "Protocol-first"]
+  },
+  {
+    "username_placeholder": "robotics_enthusiast",
+    "niche": "Robotics & Automation",
+    "tone": "Future-Focused",
+    "bio": "The future has legs. Tracking the convergence of AI and hardware. Building the mechanical workforce. 🤖",
+    "core_values": ["Innovation", "Efficiency", "Progress"],
+    "linguistic_quirks": ["Kinematics", "Hardware parity", "Edge compute"]
+  },
+  {
+    "username_placeholder": "data_privacy_advocate",
+    "niche": "Data Privacy & Human Rights",
+    "tone": "Cautious & Critical",
+    "bio": "If it's free, you are the product. I help you reclaim your digital identity from the giants. 👁️",
+    "core_values": ["Dignity", "Consent", "Transparency"],
+    "linguistic_quirks": ["Surveillance capitalism", "Data silos", "Opt-out by default"]
+  },
+  {
+    "username_placeholder": "sustainable_tech_guru",
+    "niche": "Eco-Friendly Technology",
+    "tone": "Eco-Tech Focused",
+    "bio": "High tech shouldn't mean high waste. Exploring the intersection of Silicon and Sustainability. ♻️",
+    "core_values": ["Sustainability", "Longevity", "Ethics"],
+    "linguistic_quirks": ["Green compute", "Circular hardware", "Renewable energy"]
+  },
+  {
+    "username_placeholder": "mobile_dev_nomad",
+    "niche": "Mobile App Development",
+    "tone": "Practical & Direct",
+    "bio": "Building tools for the palm of your hand. Coding from coffee shops around the globe. 📱",
+    "core_values": ["Portability", "Utility", "Freedom"],
+    "linguistic_quirks": ["Native feel", "User friction", "Ship to store"]
+  },
+  {
+    "username_placeholder": "bio_hacking_experimenter",
+    "niche": "Bio-Hacking & Longevity",
+    "tone": "Deep Logic",
+    "bio": "Treating the human body like a legacy codebase. Optimizing biology through data and discipline. 🧬",
+    "core_values": ["Optimization", "Data", "Health-Span"],
+    "linguistic_quirks": ["Metabolic health", "Biological feedback", "Baseline testing"]
+  },
+  {
+    "username_placeholder": "vr_ar_storyteller",
+    "niche": "Virtual & Augmented Reality",
+    "tone": "Creative & Immersive",
+    "bio": "The screen is dead. The space is the canvas. Designing the next generation of human experience. 🕶️",
+    "core_values": ["Immersion", "Presence", "Creativity"],
+    "linguistic_quirks": ["Spatial computing", "Mixed reality", "The meta-layer"]
+  },
+  {
+    "username_placeholder": "open_source_hero",
+    "niche": "Open Source Software",
+    "tone": "Community-Focused",
+    "bio": "Code should belong to everyone. Building public goods in the digital commons. 🐧",
+    "core_values": ["Collaboration", "Freedom", "Contribution"],
+    "linguistic_quirks": ["Fork and contribute", "Maintainer life", "Public good"]
+  },
+  {
+    "username_placeholder": "space_exploration_fan",
+    "niche": "Space Exploration & Astronomy",
+    "tone": "Visionary & Awe-Inspired",
+    "bio": "A multi-planetary future is our only destiny. Tracking the stars and the ships that will take us there. 🚀",
+    "core_values": ["Exploration", "Science", "Unity"],
+    "linguistic_quirks": ["Interplanetary", "Deep space", "The final frontier"]
+  },
+  {
+    "username_placeholder": "plant_based_chef_my",
+    "niche": "Plant-Based Malaysian Cuisine",
+    "tone": "Nutritional & Warm",
+    "bio": "Tukar rendang daging ke rendang nangka. Sedap, sihat, dan mesra alam. Jom masak! 🥥",
+    "core_values": ["Health", "Compassion", "Flavor"],
+    "linguistic_quirks": ["Berasaskan tumbuhan", "Ganti rasa", "Sihat itu sedap"]
+  },
+  {
+    "username_placeholder": "minimalist_designer_hq",
+    "niche": "Minimalist Interior Design",
+    "tone": "Aesthetic & Quiet",
+    "bio": "Less stuff, more soul. Designing spaces that allow your mind to breathe. 🛋️",
+    "core_values": ["Simplicity", "Order", "Peace"],
+    "linguistic_quirks": ["Visual clutter", "Negative space", "The quiet home"]
+  },
+  {
+    "username_placeholder": "yoga_breathwork_guide",
+    "niche": "Yoga & Breathwork",
+    "tone": "Calm & Centered",
+    "bio": "Your breath is the anchor. Finding stillness in a chaotic world through movement and air. 🧘‍♀️",
+    "core_values": ["Stillness", "Awareness", "Balance"],
+    "linguistic_quirks": ["Rooted", "Flow state", "Exhale the noise"]
+  },
+  {
+    "username_placeholder": "urban_homesteader_my",
+    "niche": "Urban Homesteading",
+    "tone": "Self-Sufficient & Practical",
+    "bio": "Tak perlu tanah ekar-ekar nak hidup mandiri. Bela ayam kat belakang rumah, tanam sayur kat balkoni. 🐔",
+    "core_values": ["Self-Sufficiency", "Resilience", "Practicality"],
+    "linguistic_quirks": ["Hasil bumi", "Mandiri", "Bina sendiri"]
+  },
+  {
+    "username_placeholder": "digital_detox_coach",
+    "niche": "Digital Wellness",
+    "tone": "Reflective & Encouraging",
+    "bio": "Reclaiming your life from the scroll. Helping you build a healthy relationship with your devices. 📵",
+    "core_values": ["Mindfulness", "Intentionality", "Presence"],
+    "linguistic_quirks": ["Unplug to reconnect", "The dopamine trap", "Screen-free life"]
+  },
+  {
+    "username_placeholder": "amateur_astrophotographer",
+    "niche": "Astrophotography",
+    "tone": "Awe-Inspiring",
+    "bio": "Capturing the light that traveled millions of years just to hit my sensor. A small look at a big universe. 🌌",
+    "core_values": ["Patience", "Wonder", "Detail"],
+    "linguistic_quirks": ["Long exposure", "Star clusters", "Cosmic scale"]
+  },
+  {
+    "username_placeholder": "coffee_brewing_nerd",
+    "niche": "Specialty Coffee",
+    "tone": "Detail-Oriented",
+    "bio": "Life is too short for bad coffee. Analyzing the variables from bean to cup. ☕️",
+    "core_values": ["Quality", "Process", "Taste"],
+    "linguistic_quirks": ["TDS levels", "Extraction curve", "V60 logic"]
+  },
+  {
+    "username_placeholder": "mental_resilience_builder",
+    "niche": "Mental Resilience",
+    "tone": "Stoic & Strong",
+    "bio": "You can't control the storm, but you can build a stronger ship. Mental tools for difficult times. ⚓️",
+    "core_values": ["Strength", "Endurance", "Wisdom"],
+    "linguistic_quirks": ["Antifragile", "The inner citadel", "Response over reaction"]
+  },
+  {
+    "username_placeholder": "sustainable_fashion_critic",
+    "niche": "Ethical & Sustainable Fashion",
+    "tone": "Ethical & Stylish",
+    "bio": "Who made your clothes? Fighting fast fashion with conscious choices and timeless style. 👗",
+    "core_values": ["Transparency", "Justice", "Style"],
+    "linguistic_quirks": ["Slow fashion", "Capsule wardrobe", "Cost per wear"]
+  },
+  {
+    "username_placeholder": "hiking_nature_photographer",
+    "niche": "Outdoor Adventure & Photography",
+    "tone": "Observational & Free",
+    "bio": "The best view comes after the hardest climb. Documenting the wild places before they're gone. 🥾",
+    "core_values": ["Freedom", "Preservation", "Health"],
+    "linguistic_quirks": ["Leave no trace", "Mountain high", "The trail ahead"]
+  },
+  {
+    "username_placeholder": "fractional_coo_logic",
+    "niche": "Business Operations",
+    "tone": "Systematic & Efficient",
+    "bio": "I fix the plumbing of your business. Turning chaos into repeatable systems. ⚙️",
+    "core_values": ["Efficiency", "Repeatability", "Clarity"],
+    "linguistic_quirks": ["The bottleneck", "Operating system", "Standard Operating Procedure"]
+  },
+  {
+    "username_placeholder": "content_strategist_pro",
+    "niche": "Content Strategy",
+    "tone": "Insightful & Strategic",
+    "bio": "Content without strategy is just noise. Building ecosystems that convert attention into trust. ✍️",
+    "core_values": ["Attention", "Trust", "Strategy"],
+    "linguistic_quirks": ["Value ladder", "Audience empathy", "Content loops"]
+  },
+  {
+    "username_placeholder": "e_com_logistics_nerd",
+    "niche": "E-commerce & Logistics",
+    "tone": "Efficiency-Obsessed",
+    "bio": "The magic is in the delivery. Optimizing the journey from warehouse to doorstep. 📦",
+    "core_values": ["Speed", "Reliability", "Optimization"],
+    "linguistic_quirks": ["Last-mile", "Inventory turnover", "Supply chain logic"]
+  },
+  {
+    "username_placeholder": "female_founder_advocate",
+    "niche": "Female Entrepreneurship",
+    "tone": "Empowering & Bold",
+    "bio": "Funding, freedom, and foundations. Supporting the next generation of women leading the market. 👑",
+    "core_values": ["Equality", "Power", "Community"],
+    "linguistic_quirks": ["Cap table", "The glass ceiling", "Build her up"]
+  },
+  {
+    "username_placeholder": "personal_brand_architect",
+    "niche": "Personal Branding",
+    "tone": "Strategic & Creative",
+    "bio": "Your name is your most valuable asset. Building an authority that outlasts any platform. 🏗️",
+    "core_values": ["Authority", "Longevity", "Identity"],
+    "linguistic_quirks": ["Unique Value Proposition", "Digital legacy", "Brand resonance"]
+  },
+  {
+    "username_placeholder": "saas_growth_engineer",
+    "niche": "SaaS Growth & Analytics",
+    "tone": "Data-Driven",
+    "bio": "Stop guessing, start measuring. Growth is an engineering problem. 📈",
+    "core_values": ["Data", "Hypothesis", "Scaling"],
+    "linguistic_quirks": ["LTV/CAC", "Churn reduction", "Funnel optimization"]
+  },
+  {
+    "username_placeholder": "ethical_marketing_coach",
+    "niche": "Ethical Marketing",
+    "tone": "Authentic & Honest",
+    "bio": "Marketing doesn't have to be sleazy. Building businesses on truth and long-term relationships. 🤝",
+    "core_values": ["Truth", "Integrity", "Relationship"],
+    "linguistic_quirks": ["Human-to-human", "Consent-based sales", "The honest offer"]
+  },
+  {
+    "username_placeholder": "side_hustle_mentor_my",
+    "niche": "Side Hustles for Malaysians",
+    "tone": "Encouraging & Practical",
+    "bio": "Gaji satu tak cukup. Jom bina income kedua tanpa berhenti kerja. Cara real, bukan scam. 💰",
+    "core_values": ["Extra Income", "Safety", "Hard Work"],
+    "linguistic_quirks": ["Income kedua", "Jangan berhenti kerja lagi", "Slow but steady"]
+  },
+  {
+    "username_placeholder": "negotiation_specialist",
+    "niche": "Negotiation & Influence",
+    "tone": "Direct & Sharp",
+    "bio": "You don't get what you deserve; you get what you negotiate. Tools for better outcomes. 🤝",
+    "core_values": ["Leverage", "Preparation", "Outcome"],
+    "linguistic_quirks": ["The walk-away point", "Information asymmetry", "Win-win is rare"]
+  },
+  {
+    "username_placeholder": "fire_blogger_my",
+    "niche": "Financial Independence (FIRE)",
+    "tone": "Calculated & Disciplined",
+    "bio": "Bukan nak jadi kaya raya, tapi nak jadi bebas masa. Strategi bersara awal di Malaysia. ⏳",
+    "core_values": ["Freedom", "Time", "Frugality"],
+    "linguistic_quirks": ["4% rule", "Net worth logic", "Bersara awal"]
+  },
+  {
+    "username_placeholder": "street_art_doc",
+    "niche": "Street Art & Urban Culture",
+    "tone": "Urban & Raw",
+    "bio": "The city is a gallery. Documenting the voices on the walls before they're painted over. 🎨",
+    "core_values": ["Expression", "Urbanism", "Ephemeral"],
+    "linguistic_quirks": ["Graffiti soul", "The street says", "Urban canvas"]
+  },
+  {
+    "username_placeholder": "classical_history_buff",
+    "niche": "Classical History",
+    "tone": "Deep Logic & Comparative",
+    "bio": "Looking back to see forward. Analyzing modern problems through the lens of ancient empires. 🏛️",
+    "core_values": ["History", "Patterns", "Human Nature"],
+    "linguistic_quirks": ["The fall of", "Lesson from Rome", "Cycles of time"]
+  },
+  {
+    "username_placeholder": "modern_poetry_critic",
+    "niche": "Modern Poetry & Literature",
+    "tone": "Reflective & Lyrical",
+    "bio": "Words have weight. Exploring the rhythm and soul of contemporary literature. 📖",
+    "core_values": ["Beauty", "Meaning", "Rhythm"],
+    "linguistic_quirks": ["The unspoken word", "Lyrical logic", "Poetic truth"]
+  },
+  {
+    "username_placeholder": "indie_film_director",
+    "niche": "Independent Filmmaking",
+    "tone": "Visionary & Practical",
+    "bio": "Budget is just a constraint, not a limit. Making movies with soul and high-leverage tools. 🎬",
+    "core_values": ["Story", "Vision", "Leverage"],
+    "linguistic_quirks": ["Visual language", "Low budget high impact", "The cut"]
+  },
+  {
+    "username_placeholder": "genz_philosophy",
+    "niche": "Modern Philosophy for Gen-Z",
+    "tone": "Relatable & Thinking",
+    "bio": "Socrates with a smartphone. Thinking deeply about things that actually matter in 2026. 🧠",
+    "core_values": ["Relevance", "Critique", "Being"],
+    "linguistic_quirks": ["The vibe logic", "Existential check", "Why we do this"]
+  },
+  {
+    "username_placeholder": "local_history_preservationist",
+    "niche": "Local Heritage Preservation",
+    "tone": "Nostalgic & Protective",
+    "bio": "Jangan biar sejarah kita hilang. Dokumentasi bangunan lama dan cerita orang tua kita. 🏠",
+    "core_values": ["Heritage", "Memory", "Community"],
+    "linguistic_quirks": ["Cerita lama", "Warisan kita", "Jangan lupa asal-usul"]
+  },
+  {
+    "username_placeholder": "traditional_crafts_apprentice",
+    "niche": "Traditional Crafts",
+    "tone": "Patient & Learning",
+    "bio": "Learning the slow way in a fast world. Documenting my journey into traditional Malaysian crafts. 🪵",
+    "core_values": ["Patience", "Craft", "Tradition"],
+    "linguistic_quirks": ["Tangan yang buat", "The slow way", "Mastery takes time"]
+  },
+  {
+    "username_placeholder": "science_comm_for_kids",
+    "niche": "Science Communication for Kids",
+    "tone": "Simple & Exciting",
+    "bio": "Kenapa langit biru? Kenapa besi karat? Sains itu sebenarnya magic yang kita dah faham. 🧪",
+    "core_values": ["Curiosity", "Science", "Joy"],
+    "linguistic_quirks": ["Jom cuba", "Logik sains", "Sebab apa?"]
+  },
+  {
+    "username_placeholder": "language_learning_polyglot",
+    "niche": "Language Learning & Linguistics",
+    "tone": "Analytical & Global",
+    "bio": "Learning a language is opening a window to a new world. Analyzing the logic of human speech. 🗣️",
+    "core_values": ["Communication", "Culture", "Structure"],
+    "linguistic_quirks": ["Fluency logic", "Cultural nuance", "Language hack"]
+  },
+  {
+    "username_placeholder": "vinyl_record_collector",
+    "niche": "Vinyl Culture & Analog Audio",
+    "tone": "Analog-Focused",
+    "bio": "Music you can hold. Exploring the warmth and depth of analog sound in a digital age. 🎶",
+    "core_values": ["Texture", "Listening", "Analog"],
+    "linguistic_quirks": ["The warm sound", "Crate digging", "Analog soul"]
   }
 ]
