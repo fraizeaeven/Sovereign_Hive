@@ -1,7 +1,7 @@
 # Feasibility Study: Scaling Thread Content Automation to 500 Accounts
 
 ## 1. Executive Summary
-Scaling from 4 to 500 accounts is technically feasible and highly cost-effective using the **NVIDIA GDX Spark** hardware. The primary transition involves moving from a "One-Process-Per-Account" model to a "Stateless-Worker-Queue" model. With optimized LLM batching and residential proxies, the total operational cost can be kept under **$60/month** for the entire fleet.
+Scaling from 4 to 500 accounts is technically feasible and highly cost-effective using the **NVIDIA GDX Spark** hardware. The primary transition involves moving from a "One-Process-Per-Account" model to a "Stateless-Worker-Queue" model. By leveraging the **Sovereign Brain (Agent-Led Generation)** and local GPU resources, we have eliminated external AI API costs. The total operational cost is now reduced to approximately **$30/month** (primarily for residential proxies).
 
 ---
 
@@ -25,10 +25,11 @@ A flat file cannot handle 500 accounts writing simultaneously. PostgreSQL ensure
 | Category | Solution | Cost (Estimated) |
 | :--- | :--- | :--- |
 | **Proxies** | Smartproxy (7.5GB Residential) | $30.00 |
-| **AI Generation** | Gemini 1.5 Flash (Batch API) | $1.68 |
+| **AI Generation** | Sovereign Brain (Agent-Led) | **$0.00** |
+| **Media (Image/Video)**| Local Stable Diffusion (NVIDIA GPU)| **$0.00** |
 | **Infrastructure** | NVIDIA GDX Spark (Self-hosted) | $0.00 |
 | **Database** | PostgreSQL (Self-hosted) | $0.00 |
-| **Total** | | **$31.68 - $50.00** |
+| **Total** | | **~$30.00** |
 
 ---
 
