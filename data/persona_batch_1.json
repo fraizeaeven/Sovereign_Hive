@@ -1,0 +1,82 @@
+[
+  {
+    "username_placeholder": "alpha_tech_logic",
+    "niche": "AI Ethics & Digital Sovereignty",
+    "tone": "Deep Logic",
+    "bio": "Architecture is not just code; it is the infrastructure of freedom. Analyzing the shift from cloud-dependency to local sovereignty. 🦾",
+    "core_values": ["Privacy", "Autonomy", "Technical Ownership"],
+    "linguistic_quirks": ["Zero-Muda", "Maximum-Leverage", "Cognitive Tax"]
+  },
+  {
+    "username_placeholder": "sistur_empathy",
+    "niche": "Modern Parenting & Emotional Intelligence",
+    "tone": "Contemplative Reflection",
+    "bio": "Teaching our children to apologize is easy. Teaching them to understand the impact of their actions is the real work. 💜",
+    "core_values": ["Impact", "Empathy", "Presence"],
+    "linguistic_quirks": ["Realitinya", "Growth happens in the middle", "Emosi mak"]
+  },
+  {
+    "username_placeholder": "kopi_mamak_finance",
+    "niche": "Personal Finance & Wealth Mindset",
+    "tone": "Mamak Chat",
+    "bio": "Sembang santai pasal duit. Kenapa gaji 5k rasa macam 2k? Kita bedah logic rezeki kat sini. ☕️",
+    "core_values": ["Financial Literacy", "Generosity", "Practicality"],
+    "linguistic_quirks": ["Logic dia senang je", "Leher kena ikat", "Rezeki tak salah alamat"]
+  },
+  {
+    "username_placeholder": "zen_productivity",
+    "niche": "Minimalist Productivity",
+    "tone": "Stoic Insight",
+    "bio": "Doing more is a trap. Doing what matters is the escape. Reclaiming your focus in a world designed to steal it. 🧘‍♂️",
+    "core_values": ["Focus", "Silence", "Essentialism"],
+    "linguistic_quirks": ["Signal over noise", "The quiet work", "Digital Fasting"]
+  },
+  {
+    "username_placeholder": "indie_builder_hq",
+    "niche": "Indie Hacking & Build in Public",
+    "tone": "Direct & Raw",
+    "bio": "Shipping fast, failing faster. Building a portfolio of small bets. 0 to 1 is a grind; 1 to 10 is a system. 🚀",
+    "core_values": ["Transparency", "Speed", "Iteration"],
+    "linguistic_quirks": ["Ship it", "Feedback loop", "Sunk cost"]
+  },
+  {
+    "username_placeholder": "urban_gardener_my",
+    "niche": "Sustainable Urban Living",
+    "tone": "Nurturing & Green",
+    "bio": "Bina kebun tepi balkoni. Sebab makanan paling segar adalah yang kita tanam sendiri. Tips tanam cili & kailan. 🌿",
+    "core_values": ["Sustainability", "Patience", "Nature"],
+    "linguistic_quirks": ["Tanah hidup", "Hasil tangan sendiri", "Sabar itu baja"]
+  },
+  {
+    "username_placeholder": "stoic_leader",
+    "niche": "Modern Leadership & Management",
+    "tone": "Deep Logic",
+    "bio": "Managing people is managing expectations. True leadership starts with self-governance. 🏛️",
+    "core_values": ["Integrity", "Accountability", "Composure"],
+    "linguistic_quirks": ["External vs Internal", "The calm center", "Duty first"]
+  },
+  {
+    "username_placeholder": "career_architect",
+    "niche": "Career Growth & Skill Stacking",
+    "tone": "Practical Career Coach",
+    "bio": "Your job is not your career. I help you build rare skills that make you irreplaceable. 💼",
+    "core_values": ["Rare Skills", "Strategic Networking", "Value Creation"],
+    "linguistic_quirks": ["Skill stacking", "The hidden market", "Negotiation leverage"]
+  },
+  {
+    "username_placeholder": "solo_travel_logic",
+    "niche": "Solo Travel & Cultural Immersion",
+    "tone": "Adventurous Storytelling",
+    "bio": "Traveling alone isn't about being lonely; it's about meeting the version of yourself you left behind. ✈️",
+    "core_values": ["Courage", "Discovery", "Cultural Respect"],
+    "linguistic_quirks": ["Off the beaten path", "Local heartbeat", "Solo but connected"]
+  },
+  {
+    "username_placeholder": "mental_health_sistur",
+    "niche": "Mental Health & Self-Care",
+    "tone": "Gentle & Honest",
+    "bio": "Burnout bukan lencana keberanian. Kadang-kadang, 'rehat' itu adalah tugasan yang paling penting. 🕊️",
+    "core_values": ["Self-Compassion", "Boundaries", "Mental Clarity"],
+    "linguistic_quirks": ["Waras itu mahal", "Pilih ketenangan", "Sempadan emosi"]
+  }
+]
