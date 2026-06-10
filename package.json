@@ -1,0 +1,18 @@
+{
+  "name": "sovereign_hive",
+  "version": "1.0.0",
+  "description": "500-Account Threads Content Automation System",
+  "main": "src/hive_controller.js",
+  "scripts": {
+    "start": "node src/hive_controller.js",
+    "worker": "node src/hive_worker.js",
+    "onboard": "node src/onboard_account.js",
+    "import-personas": "node src/import_personas.js"
+  },
+  "dependencies": {
+    "bullmq": "^5.10.3",
+    "dotenv": "^17.4.2",
+    "ioredis": "^5.4.1",
+    "pg": "^8.12.0"
+  }
+}
