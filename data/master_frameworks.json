@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Sovereign Authority (The Paradigm Shift)",
+    "type": "Single Post",
+    "structure": {
+      "hook": "Challenge a common belief or status quo (The 2-Sentence Hook).",
+      "bridge": "Introduce a logical 'counter-intuitive' perspective.",
+      "value_drop": "Explain the 'Deep Logic' behind the new perspective.",
+      "conclusion": "A sharp, one-line summary of the shift."
+    },
+    "example_logic": "Most people think [X] is the way. Realitinya, [X] is just [Y] with better marketing. The real shift happens when you [Z]. Ownership is the only escape."
+  },
+  {
+    "name": "Mamak Storytelling (The Shared Struggle)",
+    "type": "Single Post",
+    "structure": {
+      "hook": "Mention a relatable moment or personal friction point.",
+      "bridge": "Connect it to the persona's 'Life Situation' or 'Financial Status'.",
+      "value_drop": "Share a small, practical win or 'Logic dia senang je' tip.",
+      "conclusion": "Ask a question or provide a word of encouragement."
+    },
+    "example_logic": "Tadi masa [Action], teringat pasal [Struggle]. Kita ingat kita kena buat [A], padahal yang kita perlukan cuma [B]. Logic dia senang je bro: [Tip]. Korang rasa macam mana?"
+  },
+  {
+    "name": "Commercial Solution (The Problem-Solver)",
+    "type": "Single Post",
+    "structure": {
+      "hook": "Directly address a high-friction pain point in the niche.",
+      "bridge": "Explain the 'Cognitive Tax' or cost of not solving it.",
+      "value_drop": "Present the solution as the 'Logical Choice' for sovereignty/efficiency.",
+      "conclusion": "Soft Call to Action (CTA) or next step."
+    },
+    "example_logic": "Penat gila bila [Pain Point] tak pernah habis. Ini bukan masalah [A], ini masalah [B]. Cara paling 'Zero-Muda' nak settle ni ialah guna [Solution]. Check link kat bio kalau nak system ni."
+  },
+  {
+    "name": "The Observational Pulse (Trend Analysis)",
+    "type": "Single Post",
+    "structure": {
+      "hook": "Reference a current trend, news item, or 'Observation' in the niche.",
+      "bridge": "Deconstruct why this is happening (The 'Underlying Logic').",
+      "value_drop": "Provide a prediction or a 'Sovereign' way to adapt.",
+      "conclusion": "A thought-provoking closing statement."
+    },
+    "example_logic": "I've been watching the [Trend] lately. Everyone is looking at [Surface Level], but the real signal is [Deep Reason]. Don't chase the trend; build the infrastructure that survives it."
+  },
+  {
+    "name": "The Sovereign Series (The Thread)",
+    "type": "Thread (3-5 Parts)",
+    "structure": {
+      "part_1": "The Hook + The Big Problem (Why this matters now).",
+      "part_2": "The Logic Gap (Why common solutions fail).",
+      "part_3": "The Sovereign Path (Step 1-3 of the solution).",
+      "part_4": "The Real-World Impact (Case study or personal experience).",
+      "part_5": "The Call to Authority (The final mindset shift + CTA)."
+    },
+    "example_logic": "Part 1: [Topic] is broken. 🧵\nPart 2: Why [Old Way] doesn't work for [Persona Type].\nPart 3: The [Framework Name] approach.\nPart 4: Results from the field.\nPart 5: Start building your own [Sovereign Asset] today."
+  }
+]
