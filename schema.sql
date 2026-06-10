@@ -51,7 +51,7 @@ CREATE TABLE content_vault (
 );
 
 -- 4. ANALYTICS TABLE
--- Tracks performance across all 500 accounts.
+-- Tracks performance snapshots across all 500 accounts.
 CREATE TABLE analytics (
     id SERIAL PRIMARY KEY,
     post_id INTEGER REFERENCES content_vault(id) ON DELETE CASCADE,
@@ -59,10 +59,24 @@ CREATE TABLE analytics (
     replies INTEGER DEFAULT 0,
     reposts INTEGER DEFAULT 0,
     quotes INTEGER DEFAULT 0,
-    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    captured_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP -- Snapshot time for trend analysis
 );
 
--- 5. SYSTEM_LOGS
+-- 5. COMMENTS TABLE (Optional Engagement Module)
+-- Stores incoming comments for review and reply.
+CREATE TABLE comments (
+    id SERIAL PRIMARY KEY,
+    account_id INTEGER REFERENCES accounts(id) ON DELETE CASCADE,
+    post_id INTEGER REFERENCES content_vault(id) ON DELETE CASCADE,
+    meta_comment_id VARCHAR(100) UNIQUE NOT NULL,
+    username VARCHAR(50),
+    content TEXT,
+    parent_comment_id VARCHAR(100), -- For nested replies
+    status VARCHAR(20) DEFAULT 'new', -- new, read, replied, ignored
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- 6. SYSTEM_LOGS
 -- Centralized logging for the worker fleet.
 CREATE TABLE system_logs (
     id SERIAL PRIMARY KEY,
@@ -78,3 +92,5 @@ CREATE TABLE system_logs (
 CREATE INDEX idx_vault_status_schedule ON content_vault(status, scheduled_for);
 CREATE INDEX idx_accounts_status ON accounts(status);
 CREATE INDEX idx_analytics_post ON analytics(post_id);
+CREATE INDEX idx_comments_post ON comments(post_id);
+CREATE INDEX idx_comments_status ON comments(status);
