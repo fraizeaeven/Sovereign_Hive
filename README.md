@@ -16,6 +16,21 @@ The Sovereign Hive moves away from traditional linear process management to a **
 
 ---
 
+## 🖥️ System Requirements
+
+The system is designed to scale dynamically. Below are the estimated resource requirements based on cluster size:
+
+| Resource | Small Scale (1-10 Accounts) | Large Scale (500+ Accounts) |
+| :--- | :--- | :--- |
+| **RAM** | 2GB - 4GB | 16GB - 32GB (Optimized) |
+| **CPU** | 1-2 vCPU | 8+ vCPU (High Concurrency) |
+| **Storage** | 1GB SSD | 20GB+ NVMe (Logs & Media) |
+| **Network** | Standard / Home IP | Residential Proxy Pool (Mandatory) |
+
+**Operational Note:** While the stateless worker architecture reduces idle overhead, high-density operations (500+ accounts) require significant RAM to handle concurrent database connections, Redis queues, and asset processing.
+
+---
+
 ## 🚀 Quick Start
 
 ### 1. Environment Setup

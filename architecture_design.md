@@ -9,10 +9,10 @@
 *   **Scalability:** Linear. 500 accounts would require ~1500-2000 PM2 processes.
 
 ### Bottlenecks for 500 Accounts:
-1.  **Memory Overhead:** Each PM2 process (Node.js) consumes ~30-50MB RAM. 2000 processes = 60GB - 100GB RAM just for process management.
-2.  **Storage Contention:** A 500-account `database.json` would be multiple MBs. Simultaneous writes would lead to data corruption or massive locking delays.
-3.  **Rate Limiting:** Single IP execution for all accounts will lead to instant bans.
-4.  **CPU Spikes:** 500 instances of `generator.js` starting at once would crash the CPU.
+1.  **Memory Overhead:** Each PM2 process (Node.js) consumes between **15MB (idle)** to **50MB (active)** RAM. For a 500-account cluster using the 1-to-1 model (~1500 processes), this would require **30GB - 75GB RAM** just for basic process overhead.
+2.  **Storage Contention:** A 500-account database would grow significantly in size and complexity. Simultaneous writes to flat files would lead to data corruption or massive locking delays.
+3.  **Rate Limiting:** Sequential execution from a single IP for 500 accounts triggers immediate security flags. 
+4.  **CPU Spikes:** Uncoordinated execution of content generators across 500 instances would saturate CPU resources instantly.
 
 ---
 
